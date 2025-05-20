@@ -9,7 +9,12 @@ with open("Dictonary.json", "r", encoding="utf-8") as file:
     Dictonary = json.load(file)
 if debug:
     print(f"Pure Zeilen:{Dictonary}")
-    
+
+with open("Unsure.json", "r", encoding="utf-8") as file:
+    unsure = json.load(file)
+if debug:
+    print(f"Pure Zeilen:{Dictonary}")
+
 Request = input("English word (w. correct grammer!!): ")
 if Dictonary.get(Request, None) == None:
     print("idk")
