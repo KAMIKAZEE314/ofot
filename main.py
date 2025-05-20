@@ -12,14 +12,23 @@ if debug:
 
 with open("Unsure.json", "r", encoding="utf-8") as file:
     unsure = json.load(file)
+    unsure_list = list(unsure.keys())
 if debug:
-    print(f"Pure Zeilen:{Dictonary}")
+    print(f"Pure Zeilen:{unsure}")
 
 Request = input("English word (w. correct grammer!!): ")
 if Dictonary.get(Request, None) == None:
     print("idk")
+    if unsure.get(Request, None) == None:
+        unsure[Request] = []
 else:
     print(f"It means {Dictonary.get(Request)} in german")
+    
+data = input(f"What's {unsure_list[0]} in german: ")
+unsure[unsure_list[0]].append(data)
 
 with open("Dictonary.json", "w", encoding="utf-8") as file:
     json.dump(Dictonary, file, ensure_ascii=False, indent=4)
+    
+with open("Unsure.json", "w", encoding="utf-8") as file:
+    json.dump(unsure, file, ensure_ascii=False, indent=4)
