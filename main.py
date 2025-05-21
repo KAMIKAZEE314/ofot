@@ -26,6 +26,11 @@ else:
     
 data = input(f"What's {unsure_list[0]} in german: ")
 unsure[unsure_list[0]].append(data)
+if len(unsure[unsure_list[0]]) == 13:
+    data = unsure[unsure_list[0]]
+    lowercase_data = []
+    for data_piece in data:
+        lowercase_data.append(data_piece.lower())
 
 with open("Dictonary.json", "w", encoding="utf-8") as file:
     json.dump(Dictonary, file, ensure_ascii=False, indent=4)
