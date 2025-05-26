@@ -30,7 +30,7 @@ while True:
     if len(unsure) != 0:
         rand_index = randint(0, len(unsure_list) - 1)
         if not unsure_list[rand_index] == Request:
-            data = input(f"What's {unsure_list[rand_index]} in german: ")
+            data = input(f"What's \"{unsure_list[rand_index]}\" in german: ")
             unsure[unsure_list[rand_index]].append(data)
             if len(unsure[unsure_list[rand_index]]) >= 13:
                 data = unsure[unsure_list[rand_index]]
