@@ -29,6 +29,7 @@
         "der Kaffee",
         "der Kaffee",
         "der Kaffee",
+        "der Kaffee",
         "der Kaffee"
     ],
     "industry": [
@@ -38,6 +39,7 @@
     ],
     "tears": [],
     "of": [
+        "aus",
         "aus",
         "aus",
         "aus"
@@ -61,10 +63,11 @@
         "die Kronen"
     ],
     "classic": [
+        "klassisch",
         "klassisch"
     ],
     "daylight": [
-        "Tageslicht"
+        "das Tageslicht"
     ],
     "address": [],
     "bloons": [
@@ -94,19 +97,26 @@
         "an"
     ],
     "off": [
+        "aus",
         "aus"
     ],
     "cap": [
+        "die Kappe",
         "die Kappe",
         "die Kappe"
     ],
     "anime": [],
     "sister": [
+        "die Schwester",
         "die Schwester"
     ],
     "brother": [],
-    "phone": [],
-    "wall": [],
+    "phone": [
+        "das Telephon"
+    ],
+    "wall": [
+        "die Mauer"
+    ],
     "table": [
         "der Tisch"
     ],
@@ -130,7 +140,10 @@
     ],
     "hair": [],
     "header": [],
-    "hour": [],
+    "hour": [
+        "die Stunde",
+        "die Stunde"
+    ],
     "glasses": [],
     "grammer": [],
     "one": [],
