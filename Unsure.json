@@ -1,3 +1,138 @@
 {
-    "know": []
+    "banana": [
+        "die Banane",
+        "die Banane",
+        "die Banane",
+        "die Banane",
+        "die Banane",
+        "die Banane",
+        "die Banane"
+    ],
+    "coconut": [
+        "die Kokosnuss",
+        "die Kokosnuss",
+        "die Kokosnuss",
+        "die Kokosnuss",
+        "die Kokosnuss"
+    ],
+    "ape": [
+        "der Affe",
+        "der Affe",
+        "der Affe"
+    ],
+    "cucumber": [
+        "die Gurke"
+    ],
+    "coffee": [
+        "der Kaffee",
+        "der Kaffee",
+        "der Kaffee",
+        "der Kaffee",
+        "der Kaffee",
+        "der Kaffee"
+    ],
+    "industry": [
+        "die Industrie",
+        "die Industrie",
+        "die Industrie"
+    ],
+    "tears": [],
+    "of": [
+        "aus",
+        "aus",
+        "aus"
+    ],
+    "the": [],
+    "kingdom": [
+        "das Königreich",
+        "das Königreich",
+        "das Königreich"
+    ],
+    "breath": [
+        "der Atem"
+    ],
+    "wild": [
+        "wild",
+        "wild"
+    ],
+    "two": [],
+    "crowns": [
+        "die Kronen",
+        "die Kronen"
+    ],
+    "classic": [
+        "klassisch"
+    ],
+    "daylight": [
+        "Tageslicht"
+    ],
+    "address": [],
+    "bloons": [
+        "die Ballons"
+    ],
+    "tower": [
+        "der Turm",
+        "der Turm",
+        "der Turm"
+    ],
+    "defense": [],
+    "six": [
+        "sechs",
+        "sechs",
+        "sechs"
+    ],
+    "museum": [
+        "das Museum"
+    ],
+    "pen": [
+        "der Stift"
+    ],
+    "pencil": [
+        "der Bleistift"
+    ],
+    "on": [
+        "an"
+    ],
+    "off": [
+        "aus"
+    ],
+    "cap": [
+        "die Kappe",
+        "die Kappe"
+    ],
+    "anime": [],
+    "sister": [
+        "die Schwester"
+    ],
+    "brother": [],
+    "phone": [],
+    "wall": [],
+    "table": [
+        "der Tisch"
+    ],
+    "chair": [],
+    "picture": [
+        "das Bild"
+    ],
+    "teacher": [],
+    "marker": [],
+    "raw": [],
+    "green": [
+        "grün",
+        "grün"
+    ],
+    "console": [],
+    "launcher": [],
+    "paper": [],
+    "pokémon": [],
+    "ready": [
+        "fertig"
+    ],
+    "hair": [],
+    "header": [],
+    "hour": [],
+    "glasses": [],
+    "grammer": [],
+    "one": [],
+    "shoe": []
 }
